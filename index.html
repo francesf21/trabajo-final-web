@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Expeditions</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <img src="img/logo.png" alt="logo" />
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Proximos Viajes</a></li>
+                    <li><a href="#">Comentarios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article class="descripcion">
+            <h1>Mountain Expeditions</h1>
+            <p> Somos una pequeña empresa peruana. Nos especializamos en expediciones a medida, profesionales y
+                organizadas sin problemas en todo el Perú. Una expedición exitosa se compone de cientos de pequeñas
+                experiencias maravillosas adquiridas de
+                principio a fin. Por lo tanto, nos aseguramos de que todos los aspectos de su viaje estén organizados y
+                bien administrados por expertos. </p>
+            <button>Agendar Aquí</button>
+        </article>
+    </div>
+
+    <article id="content">
+        <h2>Proximos Eventos</h2>
+        <div id="card">
+            <img id="imagen" src="img/evento1.jpg" alt="evento1" />
+            <h3>La montaña de los 7 Colores</h3>
+            <p id="parrafo">También llamado Vinicunca o simplemente montaña arcoíris es una de las nuevas y mejores
+                atracciones del Perú. Ubicada a más de 100 kilómetros de la ciudad del Cusco, en una cumbre altitudinal
+                situada a 5,200 metros sobre el nivel del mar</p>
+            <button id="button">Reservar</button>
+        </div>
+        <div id="card">
+            <img id="imagen" src="img/evento2.jpg" alt="evento2" />
+            <h3>Machu Picchu</h3>
+            <p id="parrafo">Es considerado el principal destino turístico del Perú y uno de los lugares más visitados a
+                nivel mundial. Ubicada a 2360 metros sobre el nivel del mar y en el valle del río Urubamba, Machu Picchu
+                deslumbra a quien lo visite, con su belleza y su misterio.</p>
+            <button id="button">Reservar</button>
+        </div>
+        <div id="card">
+            <img id="imagen" src="img/evento3.jpeg" alt="evento3" />
+            <h3>Arequipa</h3>
+            <p id="parrafo">Lo tiene todo. Sí, absolutamente todo lo que puedas imaginar, lo encuentras en el territorio
+                de la 'Ciudad Blanca'. Historia, aventura, paisajes fabulosos, vida silvestre, gastronomía, arte y mucho
+                más</p>
+            <button id="button">Reservar</button>
+        </div>
+    </article>
+
+    <article id="comments">
+        <h2>Comentarios de nuestros clientes</h2>
+        <div id="card" class="imagenTop">
+            <img id="imagen" src="img/person.jpeg" alt="evento1" />
+            <h3>Andrea Sevilla</h3>
+            <p id="parrafo">Ha sido un viaje en el que conocimos algunas zonas de Peru con guías locales muy
+                comprometidos y conocedores de las zonas, historia y cultura en las ciudades que nos mostraron. Nos
+                faltó tiempo para seguir en este increíble país….</p>
+        </div>
+        <div id="card" class="imagenBottom">
+            <img id="imagen" src="img/person2.jpeg" alt="evento2" />
+            <h3>Juana Flores</h3>
+            <p id="parrafo">Quiero destacar la profesionalidad de todos y cada uno de nuestros guias y conductores y en
+                especial de nuestro enlace a la hora de organizar el viaje, nuestro guia y organizador Augusto Michael.
+            </p>
+        </div>
+        <div id="card" class="imagenTop">
+            <img id="imagen" src="img/person3.jpeg" alt="evento3" />
+            <h3>Francisco Romero</h3>
+            <p id="parrafo">Nos hicieron un viaje a nuestro gusto, nos facilitaron cambios y rutas sobre la marcha según
+                avanzaba el viaje. Todo el tiempo estuvieron localizables para cualquier consulta o asistencia q
+                tuvimos. Muy amables. Recomendable 100%</p>
+        </div>
+        <div id="card" class="imagenBottom">
+            <img id="imagen" src="img/person4.jpeg" alt="evento2" />
+            <h3>Carlos Nava</h3>
+            <p id="parrafo">Nuestro viaje a perú estuvo muy bien de principio a fin. Fue un viaje muy completo Nuestra
+                agente local fue Ana Isabel Que la verdad es que estuvo a la altura de todas las circunstancias.</p>
+        </div>
+    </article>
+
+    <article>
+        <div class="information">
+            <p>Mountain Expeditions emplea a un pequeño número de líderes de expedición altamente experimentados para
+                dirigir nuestros viajes. Elegidos cuidadosamente por su experiencia, calificaciones, personalidad y su
+                capacidad para aplicarse a situaciones desafiantes.</p>
+
+            <div>Móvil: +51 999 999 999</div><br>
+            <div>Oficina: +01 240 2300</div><br>
+            <div>Correo electrónico: info@mountain-expeditions.com</div>
+        </div>
+        <div class="form">
+            <form>
+                <input id="nombre" type="text" placeholder="Nombres y Apilledos"><br>
+
+                <input id="email" type="email" placeholder="Correo electrónico"><br>
+
+                <input id="phone" type="number" placeholder="Teléfono"><br>
+
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Dejanos tus comentarios..."></textarea>
+                <br>
+                <button id="button" onclick="registerData()">Contactanos</button>
+                <br>
+            </form>
+        </div>
+    </article>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proximos Viajes</a></li>
+                <li><a href="#">Comentarios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <br />
+        <span class="copyright">&copy; Copyright Frances Flores</span>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
